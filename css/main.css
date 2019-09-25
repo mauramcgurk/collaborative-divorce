@@ -52,6 +52,10 @@ body {
 }
 
 /*****HEADER*****/
+/*****.wrapper {
+  overflow: auto;
+}....moved up nav text and shortened height of gray-white bar but still didn't really work*****/
+
 header {
   background-color: #ffffff;
   height: 180px;
@@ -60,12 +64,17 @@ header {
   padding-right: 50px;
 }
 
+/*****header.full-width {
+  overflow: auto;
+}....didn't change anything *****/
+
 header img {
   margin: 10px 0 0 180px;
   width: 150px;
 }
 
 nav {
+  /*****clear:right;....moved text up but also increased height of gray bar*****/
   float: right;
   /*****overflow: auto;...did not work...*****/
   padding: 20px 10px 10px 0px;
