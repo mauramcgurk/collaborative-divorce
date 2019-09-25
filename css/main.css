@@ -56,6 +56,15 @@ body {
   overflow: auto;
 }....moved up nav text and shortened height of gray-white bar but still didn't really work*****/
 
+/*****.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}....little, if any, change!!!*****/
+
+
 header {
   background-color: #ffffff;
   height: 180px;
