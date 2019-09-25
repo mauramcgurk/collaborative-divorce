@@ -1,4 +1,198 @@
 /*****COLLABORATIVE DIVORCE SITE*****/
 
-font-family: 'Oswald', sans-serif; /*****<h>*****/
-font-family: 'Archivo Narrow', sans-serif; /*****<p>*****/
+/*****BASE STYLES*****/
+
+/*****COLORS
+
+#bf4e30 deep orange
+#84bc9c celery green
+#093824 dark green
+#e5eafa gray-white
+0cbaba turquoise
+e9d758 yellow
+#040f16 black
+
+*****/
+
+/*****font-family: 'Oswald', sans-serif; /*****<h>*****/
+/*****font-family: 'Archivo Narrow', sans-serif; /*****<p>*****/
+
+body {
+  background-color: #e5eafa /*****gray-white*****/;
+  color: #040f16;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+/*****GRID*****/
+.full-width {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 1400px;
+}
+
+.half-width {
+  float:left;
+  width: 700px;
+}
+
+.one-third-width {
+  width: 466px;
+  float:left;
+  clear: both;
+}
+
+.two-thirds-width {
+  float:left;
+  width: 933px;
+}
+
+/*****HEADER*****/
+header {
+  background-color: white;
+  height: 180px;
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+
+header img {
+  margin: 20px 0 0 180px;
+  width: 150px;
+}
+
+/*****nav {
+  margin-left: -100px;
+}*****/
+
+ul {
+  padding-left: 100px;
+  padding-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 60px;
+  margin-top: 15px;
+  padding-top: 30px;
+}
+
+nav ul li a {
+  color: #093824;
+  font-size: 22px;
+  font-weight: bold;
+  /*****line-height: 200%;*****/
+  text-decoration: none;
+}
+
+
+/*****MAIN*****/
+
+/*****HERO*****/
+#hero {
+  background: url('../img/hero-image-1400.jpg');
+  background-size: cover;
+  height: 650px;
+  /*****margin-bottom: 15px;
+  margin-top: 0px;*****/
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+#hero h1 {
+  color: #040f16;
+  font-size: 60px;
+  width: 850px;
+  clear: both;
+  /*****line-height: 95px;
+  padding: 0px 0 20px 70px;
+  margin-top: -380px;*****/
+}
+
+/***** TO BE CONTINUED...
+
+
+/*****span {
+  /*****font-size: 100px;
+}*****/
+
+/*****
+h2 {
+  color: #040f16;
+  font-size: 36px;
+  text-align: center;
+}
+
+/*****.span-color {
+  color: #fbfbff;
+}*****/
+
+/*****
+#about {
+  height: 800px;
+}
+
+#about p {
+  /*****padding-left: 170px;
+}*****/
+
+/*****WHAT TO EXPECT*****/
+
+/*****
+#what-to-expect {
+  background-color: #b80c09;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#split-page {
+  background-color: #0b4f6c;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#rogue-pickings {
+  background-color: #75aec6;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#jubilee-austen {
+  background-color: #b80c09;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#thinkspace {
+  background-color: #0b4f6c;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+
+/*****CONNECT*****/
+/*****
+#connect p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#connect ul li {
+  display: inline-block;
+  margin: 0 200px 0 200px;
+}
+
+#connect ul {
+  /*****list-style: none;*****/
+}
+/*****
+#connect ul li a {
+  color: #040f16;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
