@@ -55,6 +55,7 @@ body {
 header {
   background-color: #ffffff;
   height: 180px;
+  /*****overflow:auto; ...this removed nav from visibility entirely, and made gray-white bar a little smaller*****/
   /*****margin-bottom: 20px;*****/
   padding-right: 50px;
 }
