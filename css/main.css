@@ -11,6 +11,7 @@
 0cbaba turquoise
 e9d758 yellow
 #040f16 black
+#ffffff white
 
 *****/
 
@@ -26,8 +27,9 @@ body {
 
 /*****GRID*****/
 .full-width {
-  margin-left: 0px;
-  margin-right: 0px;
+  /*****margin-left: 0px;
+  margin-right: 0px;*****/
+  margin:auto;
   width: 1400px;
 }
 
@@ -43,37 +45,41 @@ body {
 }
 
 .two-thirds-width {
-  float:left;
+  float:right;
   width: 933px;
+  clear: both; /*****I don't know why, but this command puts the gray-white border between header and main - no-man's-land, for some reason...also - with this command, the nav is perfectly aligned...without it, the nav falls below. Not sure what's going on...*****/
+  /*****overflow: auto;...did not work - no change in nav or gray bar...*****/
 }
 
 /*****HEADER*****/
 header {
-  background-color: white;
+  background-color: #ffffff;
   height: 180px;
-  margin-bottom: 20px;
+  /*****margin-bottom: 20px;*****/
   padding-right: 50px;
 }
 
 header img {
-  margin: 20px 0 0 180px;
+  margin: 10px 0 0 180px;
   width: 150px;
 }
 
-/*****nav {
-  margin-left: -100px;
-}*****/
+nav {
+  float: right;
+  /*****overflow: auto;...did not work...*****/
+  padding: 20px 10px 10px 0px;
+}
 
-ul {
+/*****ul {
   padding-left: 100px;
   padding-right: 20px;
-}
+}*****/
 
 nav ul li {
   display: inline-block;
   margin-right: 60px;
-  margin-top: 15px;
-  padding-top: 30px;
+  /*****margin-top: 15px;*****/
+  /*****padding-top: 30px;*****/
 }
 
 nav ul li a {
@@ -91,24 +97,21 @@ nav ul li a {
 #hero {
   background: url('../img/hero-image-1400.jpg');
   background-size: cover;
+  clear: both; /*****made gray-white border even bigger, so it's definitely a float problem...*****/
   height: 650px;
   /*****margin-bottom: 15px;
   margin-top: 0px;*****/
 }
 
-h1, h2 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-}
-
 #hero h1 {
-  color: #040f16;
-  font-size: 60px;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  padding-left: 550px;
   width: 850px;
-  clear: both;
+  /*****clear: both;....removing this command put the gray-white bar back between header and main...but this command doesn't belong in h1 anyway!*****/
   /*****line-height: 95px;
-  padding: 0px 0 20px 70px;
-  margin-top: -380px;*****/
+  padding: 0px 0 20px 70px;/
 }
 
 /***** TO BE CONTINUED...
