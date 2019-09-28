@@ -29,7 +29,7 @@ body {
 .full-width {
   /*****margin-left: 0px;
   margin-right: 0px;*****/
-  margin:auto;
+  margin: 0 auto;
   width: 1400px;
 }
 
@@ -41,29 +41,18 @@ body {
 .one-third-width {
   width: 466px;
   float:left;
-  clear: both;
 }
 
 .two-thirds-width {
   float:right;
   width: 933px;
-  clear: both; /*****I don't know why, but this command puts the gray-white border between header and main - no-man's-land, for some reason...also - with this command, the nav is perfectly aligned...without it, the nav falls below. Not sure what's going on...*****/
-  /*****overflow: auto;...did not work - no change in nav or gray bar...*****/
 }
 
 /*****HEADER*****/
-/*****.wrapper {
-  overflow: auto;
-}....moved up nav text and shortened height of gray-white bar but still didn't really work*****/
-
-/*****.left {
-  float:left;
+.wrapper {
+  width: 1401px;
+  /*****clear: both;....little if any change dammit*****/
 }
-
-.right {
-  float:right;
-}....little, if any, change!!!*****/
-
 
 header {
   background-color: #ffffff;
@@ -73,19 +62,13 @@ header {
   padding-right: 50px;
 }
 
-/*****header.full-width {
-  overflow: auto;
-}....didn't change anything *****/
-
 header img {
   margin: 10px 0 0 180px;
   width: 150px;
 }
 
 nav {
-  /*****clear:right;....moved text up but also increased height of gray bar*****/
   float: right;
-  /*****overflow: auto;...did not work...*****/
   padding: 20px 10px 10px 0px;
 }
 
