@@ -6,6 +6,7 @@
 
 #bf4e30 deep orange
 #84bc9c celery green
+#467b62 medium green - logo and nav
 #093824 dark green
 #e5eafa gray-white
 0cbaba turquoise
@@ -27,8 +28,6 @@ body {
 
 /*****GRID*****/
 .full-width {
-  /*****margin-left: 0px;
-  margin-right: 0px;*****/
   margin: 0 auto;
   width: 1400px;
 }
@@ -49,16 +48,10 @@ body {
 }
 
 /*****HEADER*****/
-.wrapper {
-  width: 1401px;
-  /*****clear: both;....little if any change dammit*****/
-}
 
 header {
   background-color: #ffffff;
   height: 180px;
-  /*****overflow:auto; ...this removed nav from visibility entirely, and made gray-white bar a little smaller*****/
-  /*****margin-bottom: 20px;*****/
   padding-right: 50px;
 }
 
@@ -69,23 +62,16 @@ header img {
 
 nav {
   float: right;
-  padding: 20px 10px 10px 0px;
+  padding: 50px 30px 10px 0px;
 }
-
-/*****ul {
-  padding-left: 100px;
-  padding-right: 20px;
-}*****/
 
 nav ul li {
   display: inline-block;
   margin-right: 60px;
-  /*****margin-top: 15px;*****/
-  /*****padding-top: 30px;*****/
 }
 
 nav ul li a {
-  color: #093824;
+  color: #467b62;
   font-size: 22px;
   font-weight: bold;
   /*****line-height: 200%;*****/
