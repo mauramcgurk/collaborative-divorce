@@ -20,7 +20,7 @@ e9d758 yellow
 /*****font-family: 'Archivo Narrow', sans-serif; /*****<p>*****/
 
 body {
-  background-color: #e5eafa /*****gray-white*****/;
+  /*****background-color: #e5eafa /*****gray-white*****/;
   color: #040f16;
   font-family: 'Archivo Narrow', sans-serif;
 }
@@ -51,12 +51,13 @@ body {
 
 header {
   background-color: #ffffff;
-  height: 180px;
-  padding-right: 50px;
+  height: 150px;
+  margin-bottom: 15px;
+  padding-right: 20px 50px 20px 0;
 }
 
 header img {
-  margin: 10px 0 0 180px;
+  margin: 10px 0 10px 180px;
   width: 150px;
 }
 
