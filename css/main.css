@@ -8,6 +8,7 @@
 #84bc9c celery green
 #467b62 medium green - logo and nav
 #093824 dark green
+#4b0f49 purple
 #e5eafa gray-white
 0cbaba turquoise
 e9d758 yellow
@@ -51,24 +52,25 @@ body {
 
 header {
   background-color: #ffffff;
-  height: 150px;
+  height: 120px;
   margin-bottom: 15px;
   padding-right: 20px 50px 20px 0;
 }
 
 header img {
   margin: 10px 0 10px 180px;
-  width: 150px;
+  padding-left: 60px;
+  width: 125px;
 }
 
 nav {
   float: right;
-  padding: 50px 30px 10px 0px;
+  padding: 40px 30px 10px 0px;
 }
 
 nav ul li {
   display: inline-block;
-  margin-right: 60px;
+  margin-right: 75px;
 }
 
 nav ul li a {
@@ -96,7 +98,7 @@ nav ul li a {
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
-  padding-left: 550px;
+  padding: 50px 15px 0 550px;
   width: 850px;
   /*****clear: both;....removing this command put the gray-white bar back between header and main...but this command doesn't belong in h1 anyway!*****/
   /*****line-height: 95px;
