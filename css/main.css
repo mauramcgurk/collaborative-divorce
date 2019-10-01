@@ -94,23 +94,24 @@ nav ul li a {
   color: #e5eafa;
   font-family: 'Vollkorn', serif;
   font-size: 60px;
-  padding: 95px 15px 0 595px;
+  padding: 115px 15px 0 530px;
   width: 850px;
   word-spacing: 8px;
   line-height: 1.1em;
 }
 
-span#cooperation, span#thorough {
-  color: #e3be49;
-}
-
 span#cooperation {
+  color: #e3be49;
   font-weight: bolder;
-  padding-left: -20px;
+  padding-left: 70px;
 }
 
-span#thorough {
-  padding-left: 25px;
+span#second-line {
+  padding-left: 100px;
+}
+
+span#third-line {
+  padding-left: 85px;
 }
 
 span#nobody {
@@ -118,6 +119,10 @@ span#nobody {
   font-family: 'Work Sans', sans-serif;
   font-weight: lighter;
   letter-spacing: -7px;
+}
+
+span#last-line {
+  padding-left: 50px;
 }
 
 span#everybody {
@@ -128,7 +133,6 @@ span#everybody {
 
 span#author {
   font-size: 35px;
-  padding-left: 460px;
 }
 
 /***** ABOUT *****/
@@ -179,8 +183,8 @@ span#author {
 }
 
 .right-path li {
+  color: #e5eafa;
   font-size: 24px;
-  /*****padding-left: 25px;*****/
 }
 
 /***** WHAT TO EXPECT *****/
