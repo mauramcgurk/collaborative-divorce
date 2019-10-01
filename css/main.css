@@ -88,7 +88,7 @@ nav ul li a {
 #hero {
   background: url('../img/hero-image-1400.jpg');
   background-size: cover;
-  clear: both; /*****made gray-white border even bigger, so it's definitely a float problem...*****/
+  clear: both;
   height: 650px;
   /*****margin-bottom: 15px;
   margin-top: 0px;*****/
@@ -98,21 +98,34 @@ nav ul li a {
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
-  padding: 50px 15px 0 550px;
+  padding: 95px 15px 0 585px;
   width: 850px;
-  /*****clear: both;....removing this command put the gray-white bar back between header and main...but this command doesn't belong in h1 anyway!*****/
   /*****line-height: 95px;
-  padding: 0px 0 20px 70px;/
+  padding: 0px 0 20px 70px;*****/
+}
+
+#cooperation {
+  font-size: 90px;
+  padding-left: 70px;
+}
+
+#thorough {
+  font-size: 70px;
+}
+
+#nobody {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#everybody {
+  font-family: 'Lobster Two', cursive;
+  font-size: 70px;
 }
 
 /***** TO BE CONTINUED...
 
 
-/*****span {
-  /*****font-size: 100px;
-}*****/
 
-/*****
 h2 {
   color: #040f16;
   font-size: 36px;
@@ -141,29 +154,6 @@ h2 {
   color: #fbfbff;
 }
 
-#split-page {
-  background-color: #0b4f6c;
-  overflow: auto;
-  color: #fbfbff;
-}
-
-#rogue-pickings {
-  background-color: #75aec6;
-  overflow: auto;
-  color: #fbfbff;
-}
-
-#jubilee-austen {
-  background-color: #b80c09;
-  overflow: auto;
-  color: #fbfbff;
-}
-
-#thinkspace {
-  background-color: #0b4f6c;
-  overflow: auto;
-  color: #fbfbff;
-}
 
 
 /*****CONNECT*****/
