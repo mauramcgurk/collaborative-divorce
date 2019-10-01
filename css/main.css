@@ -21,7 +21,6 @@ e9d758 yellow
 /*****font-family: 'Archivo Narrow', sans-serif; /*****<p>*****/
 
 body {
-  /*****background-color: #e5eafa /*****gray-white*****/;
   color: #040f16;
   font-family: 'Archivo Narrow', sans-serif;
 }
@@ -77,7 +76,6 @@ nav ul li a {
   color: #467b62;
   font-size: 22px;
   font-weight: bold;
-  /*****line-height: 200%;*****/
   text-decoration: none;
 }
 
@@ -90,50 +88,45 @@ nav ul li a {
   background-size: cover;
   clear: both;
   height: 650px;
-  /*****margin-bottom: 15px;
-  margin-top: 0px;*****/
 }
 
 #hero h1 {
   color: #e5eafa;
-  /*****font-family: 'Oswald', sans-serif;*****/
   font-family: 'Vollkorn', serif;
   font-size: 60px;
-  padding: 95px 15px 0 585px;
+  padding: 95px 15px 0 595px;
   width: 850px;
-  /*****line-height: 95px;
-  padding: 0px 0 20px 70px;*****/
+  word-spacing: 8px;
+  line-height: 1.1em;
 }
 
-#cooperation {
+span#cooperation, span#thorough {
+  color: #e3be49;
+}
+
+span#cooperation {
   font-weight: bolder;
-  /*****font-size: 90px;*****/
-  padding-left: 70px;
-  /*****padding-right: 25px;*****/
+  padding-left: -20px;
 }
 
-#thorough {
+span#thorough {
   padding-left: 25px;
 }
 
-#nobody {
-  /*****font-family: 'Archivo Narrow', sans-serif;*****/
-  color: #467b62;
-  /*****font-family: 'Pompiere', cursive;
-  padding: 0 15px 0 15px;*****/
-  font-style: italic;
+span#nobody {
+  color: #093824;
+  font-family: 'Work Sans', sans-serif;
   font-weight: lighter;
+  letter-spacing: -7px;
 }
 
-#everybody {
+span#everybody {
   color: #4b0f49;
-  /*****font-family: 'Lobster Two', cursive;
-  font-size: 70px;*****/
   font-style: italic;
   font-weight: bolder;
 }
 
-#author {
+span#author {
   font-size: 35px;
   padding-left: 460px;
 }
@@ -141,17 +134,17 @@ nav ul li a {
 /***** ABOUT *****/
 #about {
   /*****background-color: #e5eafa;*****/
-  height: 1000px;
+  height: 1900px;
   margin-left: 50px;
   padding-left: 25px;
   width: 1300px;
 }
 
 #about h2 {
-  color: #040f16;
+  color: #467b62;
   font-size: 36px;
-  padding-top: 15px;
-  /*****text-align: center;*****/
+  margin-bottom: 15px;
+  padding: 15px 0 0 35px;
 }
 
 .about-text {
@@ -159,26 +152,30 @@ nav ul li a {
 }
 
 #about p {
-  /*****font-size: 18px;
-  text-align: justify;*****/
+  color: #467b62;
+  font-size: 20px;
+  padding-left: 35px;
+  text-align: justify;
   width: 1250px;
 }
 
 .right-path {
-  background-color: #e5eafa;
+  background-color: #467b62;
   height: 300px;
-  width: 1200px;
+  margin-left: 150px;
+  width: 1000px;
 }
 
-.right-path p {
+.right-path h3 {
+  color: #e5eafa;
   font-size: 36px;
   font-weight: bold;
-  padding-top: 15px;
+  padding-top: 25px;
   text-align: center;
 }
 
 .right-path ul {
-  padding-left: 55px;
+  padding-left: 185px;
 }
 
 .right-path li {
