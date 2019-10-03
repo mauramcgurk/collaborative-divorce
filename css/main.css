@@ -46,7 +46,8 @@ p {
 
 /***** GRID *****/
 .full-width {
-  margin: 0 auto;
+  margin: 0 0 0 0;
+  /***** auto;*****/
   width: 1400px;
 }
 
@@ -162,6 +163,11 @@ span#author {
   width: 1300px;
 }
 
+#about .full-width {
+    margin-right: 0px;
+}
+
+
 /*****#about h2 {
   color: #467b62;
   font-size: 36px;
@@ -272,12 +278,20 @@ span#author {
   width: 1300px;
 }
 
+#what-to-expect .full-width {
+    margin-right: 0px;
+}
+
 /***** THE COLLABORATIVE TEAM *****/
 #the-team {
     height: 530px;
     margin-left: 50px;
     padding-left: 25px;
     width: 1300px;
+}
+
+#the-team .full-width {
+    margin-right: 0px;
 }
 
 /***** "THE TEAM" TEXT BOX *****/
@@ -312,7 +326,11 @@ span#author {
     height: 2100px;
     margin-left: 50px;
     padding-left: 25px;
-    width: 1300px;
+    width: 1200px;
+}
+
+#attorneys .full-width {
+    margin-right: 0px;
 }
 
 #attorneys img {
@@ -320,14 +338,34 @@ span#author {
   padding-bottom: 5px;
 }
 
-#attorneys p {
+.providers-info p {
   line-height: 1.1em;
   margin-top: 5px;
   padding-left: 50px;
 }
 
-#oddball {
-  /*****HT center?*****/
+/*****#oddball {
+  /*****HT center?
   padding-left: 300px;
   padding-right: 300px;
+}*****/
+
+#financial-specialist {
+  width: 1400px;
+}
+
+#divorce-coach {
+  width: 1400px;
+}
+
+#child-specialist {
+  width: 1400px;
+}
+
+#next-steps {
+  width: 1400px;
+}
+
+#footer {
+  width: 1400px;
 }
