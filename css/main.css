@@ -355,14 +355,17 @@ span#author {
 }
 
 #divorce-coach {
+  clear: both;
   width: 1400px;
 }
 
 #child-specialist {
+  clear: both;
   width: 1400px;
 }
 
 #next-steps {
+  clear: both;
   width: 1400px;
 }
 
