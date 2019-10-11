@@ -303,6 +303,10 @@ span#author {
   padding-left: 25px;
 }
 
+.providers-info a {
+  color: #467b62;
+}
+
 #financial-specialist, #child-specialist {
   height: 800px;
 }
@@ -319,6 +323,12 @@ span#author {
 
 /***** FOOTER *****/
 
+#footer {
+  border-top: 3px solid #467b62;
+}
+
 #footer p {
+  padding-left: 0px;
   text-align: center;
+  width: 1400px;
 }
