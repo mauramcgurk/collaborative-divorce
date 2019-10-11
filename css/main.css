@@ -9,9 +9,9 @@ body {
 }
 
 #about, #what-to-expect, #the-team, #attorneys, #financial-specialist, #divorce-coach, #child-specialist, #next-steps {
-  margin-left: 25px;
-  padding-left: 25px;
-  width: 1400px;
+  margin-left: 0px;
+  padding-left: 50px;
+  width: 1350px;
 }
 
 h2 {
@@ -63,6 +63,11 @@ p {
   float:left;
 }
 
+.two-thirds-width {
+  float:right;
+  width: 934px;
+}
+
 
 /***** HEADER *****/
 
@@ -105,6 +110,14 @@ nav ul li a {
   background-size: cover;
   clear: both;
   height: 650px;
+  padding-left: 0px;
+  width: 1400px;
+}
+
+#hero img {
+  width:100%;
+  height:auto;
+  max-width:1400px;
 }
 
 #hero h1 {
