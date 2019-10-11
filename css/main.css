@@ -5,6 +5,13 @@
 body {
   color: #040f16;
   font-family: 'Archivo Narrow', sans-serif;
+  margin: 0 auto;
+}
+
+#about, #what-to-expect, #the-team, #attorneys, #financial-specialist, #divorce-coach, #child-specialist, #next-steps {
+  margin-left: 25px;
+  padding-left: 25px;
+  width: 1400px;
 }
 
 h2 {
@@ -47,7 +54,6 @@ p {
 /***** GRID *****/
 .full-width {
   margin: 0 0 0 0;
-  /***** auto;*****/
   width: 1400px;
 }
 
@@ -59,11 +65,6 @@ p {
 .one-third-width {
   width: 466px;
   float:left;
-}
-
-.two-thirds-width {
-  float:right;
-  width: 933px;
 }
 
 
@@ -156,36 +157,11 @@ span#author {
 }
 
 /***** ABOUT *****/
+
 #about {
   height: 1600px;
-  margin-left: 50px;
-  padding-left: 25px;
-  width: 1300px;
 }
 
-#about .full-width {
-    margin-right: 0px;
-}
-
-
-/*****#about h2 {
-  color: #467b62;
-  font-size: 36px;
-  margin-bottom: 15px;
-  padding: 15px 0 0 35px;
-}*****/
-
-/*****.about-text {
-
-}*****/
-
-/*****#about p {
-  color: #467b62;
-  font-size: 20px;
-  padding-left: 35px;
-  text-align: justify;
-  width: 1250px;
-}*****/
 
 /***** "RIGHT PATH IF" TEXT BOX *****/
 
@@ -197,7 +173,6 @@ span#author {
 }
 
 .right-path h3 {
-  /*****color: #e5eafa;*****/
   color: #ffffff;
   font-size: 36px;
   font-weight: bold;
@@ -211,9 +186,9 @@ span#author {
 
 .right-path li {
   color: #ffffff;
-  /*****color: #e5eafa;*****/
   font-size: 24px;
 }
+
 
 /***** "MAIN GOALS" TEXT BOX *****/
 .main-goals {
@@ -224,7 +199,6 @@ span#author {
 }
 
 .main-goals h3 {
-  /*****color: #e5eafa;*****/
   color: #ffffff;
   font-size: 36px;
   font-weight: bold;
@@ -238,9 +212,9 @@ span#author {
 
 .main-goals li {
   color: #ffffff;
-  /*****color: #e5eafa;*****/
   font-size: 24px;
 }
+
 
 /***** "GROUND RULES" TEXT BOX *****/
 .ground-rules {
@@ -251,7 +225,6 @@ span#author {
 }
 
 .ground-rules h3 {
-  /*****color: #e5eafa;*****/
   color: #ffffff;
   font-size: 36px;
   font-weight: bold;
@@ -265,34 +238,20 @@ span#author {
 
 .ground-rules li {
   color: #ffffff;
-  /*****color: #e5eafa;*****/
   font-size: 24px;
 }
 
 /***** WHAT TO EXPECT *****/
 #what-to-expect {
-  /*****background-color: #e5eafa;*****/
   height: 540px;
-  margin-left: 50px;
-  padding-left: 25px;
-  width: 1300px;
 }
 
-#what-to-expect .full-width {
-    margin-right: 0px;
-}
 
 /***** THE COLLABORATIVE TEAM *****/
 #the-team {
     height: 530px;
-    margin-left: 50px;
-    padding-left: 25px;
-    width: 1300px;
 }
 
-#the-team .full-width {
-    margin-right: 0px;
-}
 
 /***** "THE TEAM" TEXT BOX *****/
 .your-team {
@@ -322,18 +281,8 @@ span#author {
 
 /***** ATTORNEYS AND SPECIALISTS *****/
 
-#attorneys, #financial-specialist, #divorce-coach, #child-specialist {
-    margin-left: 50px;
-    padding-left: 25px;
-    width: 1200px;
-}
-
 #attorneys {
   height: 2020px;
-}
-
-#attorneys .full-width, #financial-specialist.full-width, #divorce-coach.full-width, #child-specialist.full-width {
-    margin-right: 0px;
 }
 
 #attorneys img, #financial-specialist img, #divorce-coach img, #child-specialist img {
@@ -356,16 +305,13 @@ span#author {
 }
 
 /***** NEXT STEPS *****/
+
 #next-steps {
-  /*****clear: both;*****/
   height: 300px;
-  margin-left: 50px;
-  padding-left: 25px;
-  width: 1300px;
 }
 
 /***** FOOTER *****/
 
-#footer {
-  width: 1400px;
+#footer p {
+  text-align: center;
 }
