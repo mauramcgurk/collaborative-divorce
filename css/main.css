@@ -320,20 +320,23 @@ span#author {
 }
 
 
-/***** ATTORNEYS *****/
+/***** ATTORNEYS AND SPECIALISTS *****/
 
-#attorneys {
-    height: 2100px;
+#attorneys, #financial-specialist, #divorce-coach, #child-specialist {
     margin-left: 50px;
     padding-left: 25px;
     width: 1200px;
 }
 
-#attorneys .full-width {
+#attorneys {
+  height: 2020px;
+}
+
+#attorneys .full-width, #financial-specialist.full-width, #divorce-coach.full-width, #child-specialist.full-width {
     margin-right: 0px;
 }
 
-#attorneys img {
+#attorneys img, #financial-specialist img, #divorce-coach img, #child-specialist img {
   padding-top: 30px;
   padding-bottom: 5px;
 }
@@ -344,30 +347,24 @@ span#author {
   padding-left: 50px;
 }
 
-/*****#oddball {
-  /*****HT center?
-  padding-left: 300px;
-  padding-right: 300px;
-}*****/
-
-#financial-specialist {
-  width: 1400px;
+#financial-specialist, #child-specialist {
+  height: 800px;
 }
 
 #divorce-coach {
-  clear: both;
-  width: 1400px;
+  height: 875px;
 }
 
-#child-specialist {
-  clear: both;
-  width: 1400px;
-}
-
+/***** NEXT STEPS *****/
 #next-steps {
-  clear: both;
-  width: 1400px;
+  /*****clear: both;*****/
+  height: 300px;
+  margin-left: 50px;
+  padding-left: 25px;
+  width: 1300px;
 }
+
+/***** FOOTER *****/
 
 #footer {
   width: 1400px;
