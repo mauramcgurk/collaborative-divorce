@@ -291,9 +291,16 @@ span#author {
 }
 
 .providers-info p {
+  clear: both;
   line-height: 1.1em;
   margin-top: 5px;
-  padding-left: 50px;
+  padding-left: 25px;
+  text-align: center;
+  width: 332px;
+}
+
+.providers-info img {
+  padding-left: 25px;
 }
 
 #financial-specialist, #child-specialist {
